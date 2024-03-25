@@ -1,0 +1,74 @@
+<style>
+    @media (max-width: 576px) {
+        .hide-on-mobile {
+            display: none;
+        }
+        .header-row {
+            flex-wrap: wrap;
+        }
+        .logo-col {
+            flex: 1 0 100%;
+            margin-bottom: 10px; /* Menambahkan jarak antara logo dan input text */
+        }
+        .search-col {
+            flex: 1 0 50%;
+            max-width: 50%;
+        }
+        .search-input {
+            margin-right: 5px; /* Menambahkan jarak antara input text dan tombol search */
+        }
+        .logo{
+          max-width: 250px;
+        }
+    }
+    .content h5, .content p{
+      color: #FFFFFF;
+    }
+    .ijo{
+      background-color: #00923F;
+    }
+    .link-lainnya {
+        text-decoration: none;
+        color: #000000;
+    }
+    .judul-side{
+        margin-top: 20px;
+    }
+    .btn-custom {
+        background-color: #ffffff;
+        color: #808080;
+        font-weight: bold;
+    }
+    .footer h5{
+      border-bottom: 2px solid #00D35B; /* Tambahkan garis di bawah teks judul */
+      padding-bottom: 5px; /* Berikan sedikit ruang di bawah judul */
+      font-size: 20px; /* Ukuran teks judul */
+      color: #FFFFFF;
+    }
+    .footer p{
+      color: #FFFFFF;
+    }
+    .social-media-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .social-media-list li {
+      margin-bottom: 10px;
+    }
+    .social-media-list li i {
+      color: white; /* Mengubah warna ikon menjadi putih */
+      margin-right: 10px;
+      font-size: 20px; /* Menambahkan ukuran ikon */
+    }
+    .social-media-list li span {
+      color: white; /* Mengubah warna teks menjadi putih */
+      font-size: 18px; /* Menambahkan ukuran teks */
+    }
+    .konten{
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .konten h5{
+        font-size: 15px;
+    }
+  </style>
